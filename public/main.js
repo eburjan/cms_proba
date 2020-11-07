@@ -32,6 +32,7 @@ const formatDate = (date) => {
   
 
 const process_Cms_items = (dirPath, outputFile) => {
+    console.log('processing: '+dirPath);
     fs.readdir(dirPath, (err, files) => {
         if (err) {
             return console.log("Failed to list contents of directory: " + err)
