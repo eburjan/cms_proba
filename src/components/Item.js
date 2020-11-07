@@ -14,7 +14,7 @@ const Item = (props) => {
         //value={props.children} //for two way binding
       />
       {/*https://codeburst.io/a-quick-intro-to-reacts-props-children-cb3d2fce4891*/}
-      <span>note|id: {props.children}</span> {/***itt nincs ertelme a childrennek*/}
+      <span>note|id: {props.children}</span> {/*children az, ami a TAG-ek kozott van*/}
     </li>
   );
 }
