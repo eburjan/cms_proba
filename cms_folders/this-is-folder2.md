@@ -1,6 +1,7 @@
 ---
 title: test 2 folder
 author: Erno Burjan
+ujmezo: proba
 date: 2020-08-17T11:50:02.255Z
 thumbnail: /images/pumpbeerthumb.jpg
 ---
